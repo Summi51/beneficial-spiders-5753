@@ -1,0 +1,57 @@
+
+
+/* Shop field */
+
+.shopFinds{
+   font-size: 45px;
+   font-weight: bold;
+   margin-top: 55px;
+   margin-bottom: 50px;
+}
+
+/* Image shop field */
+
+.gridShopFields{
+    display: grid;
+    gap: 20px;
+    width: 90%;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* border: 1px solid red; */
+    margin: auto;
+}
+
+.gridShopFields>div{
+    width: 100%;
+ /* border: 1px solid green; */
+}
+
+
+.gridShopFieldsHover:hover{
+    border-bottom: 2px solid black;
+}
+
+.gridShopFieldsHover{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* dollarTree */
+
+.dollarTree{
+    font-size: 45px;
+   font-weight: bold;
+   margin-top: 55px;
+   margin-bottom: 50px;
+}
+
+/* gardenin Supplies */
+
+.gardeningSupplies{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+
