@@ -46,17 +46,7 @@ const ToysCrafts = () => {
         <Image
     src='https://cdn.shopify.com/s/files/1/0088/7986/5907/files/Crayola_c8aa4238-807d-49ef-9091-8fcc77c30c4d_1266x422.jpg?v=1656313395' />
       </Box>
-
-{/* sort btn */}
-
-      {/* <div className="sortingButtons">
-        <Button colorScheme={"green"} className="sortByCostAsc" onClick={()=>setSortBy('asc')}>
-          Sort by Asc..............................
-        </Button>
-        <Button colorScheme={"red"} className="sortByCostDesc" m={2} onClick={()=>setSortBy('desc')} >
-          Sort by Desc...........................
-        </Button>
-      </div> */}
+      
 
       <div className={styles.ch_valentineCrafts}>
         {
