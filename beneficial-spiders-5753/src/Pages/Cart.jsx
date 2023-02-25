@@ -1,11 +1,9 @@
+import { grey } from '@material-ui/core/colors';
 import React, { useEffect } from 'react'
 import {useState} from 'react'
 import { useParams } from "react-router-dom";
+import styles from './Cart.module.css'
 
-// const getData=()=>{
-//     return fetch(`http://localhost:8080/cart`)
-    
-// }
 
 const Cart = () => {
 
@@ -13,21 +11,6 @@ const Cart = () => {
     const [error, setError] = useState(false);
     const [data, setData] = useState([]);
 
-
-    // const fetchAndUpdateData = () => {
-    //     setLoading(true);
-    //     getData()
-    //     .then((data)=>{
-            
-    //         //console.log(data)
-    //         return data.json()
-    //       }).then((res)=> {
-    //        setData(res.data)
-    //         console.log(res)
-    //     })
-    //       .catch((err) => setError(true))
-    //       .finally(() => setLoading(false));
-    //   };
 
         useEffect(()=>{
             fetch(`http://localhost:8080/cart`)
@@ -41,21 +24,23 @@ const Cart = () => {
         },[])
 
         console.log("data",data);
+  
+        const handleDelete =()=>{
     
-
-      
-
+        }
 
   return (
-    <div>
+  <div>
    
    {data?.map((e) => {
           return (
-            <div>
-              <img src={e.image} alt={e.title}/>
-              <h3 className="name">{e.title}</h3>
-              {/* <div className="brand">{e.brand}</div> */}
-              <div className="price">{e.price}</div>
+            <div className={styles.main}>
+              <img style={{width:'10%', marginLeft:'45%', marginTop:'50px'}} src={e.image} alt= 
+                   {e.title}/>
+              <h3 style={{ marginTop: '10px', fontWeight: '500'}}>{e.title}</h3>
+              <div style={{ marginTop: '10px', fontWeight: '500'}}>{e.price}</div>
+              <button  onClick={handleDelete}  className={styles.del_btn}>Remove</button>
+              <hr/>
             </div>
           );
         })}

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-
+import styles from './SingleKitchenHomeDecor.module.css'
 const getData = (id) => {
   return fetch(`http://localhost:8080/kitchen/${id}`).then((res) => res.json());
 };
@@ -57,13 +57,13 @@ const SingleKitchenHomeDecor = () => {
   ) : error ? (
     <h2>Something Went Wrong..</h2>
   ) : (
-    <div>
-      <img style={{width:'300px'}} src={data?.img} alt={data?.title} />
-      <h4>
+    <div className={styles.page_btn}>
+      <img style={{width:'25%', marginLeft:'36%', marginTop:'50px'}} src={data?.img} alt={data?.title} />
+      <h4 style={{ marginTop: '10px', fontWeight: '500' }}>
        {data?.title}
       </h4>
-      <h4>{data?.price}</h4>
-      <button 
+      <h4 style={{ marginTop: '10px', fontWeight: '500' }}>{data?.price}</h4>
+      <button className={styles.btn_prods}        
        onClick={handleClick}>Add to cart</button>
     </div>
   );

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+ text-align: center;
+ margin: auto;
+ width: 90%;
+    
+}
+
+.del_btn{
+    border: 2px solid #5c5c5c;
+    text-align: center;
+    font-weight: 500;
+    width: 10%;
+    color: white;
+    margin-top: 16px;
+    padding: 8px 0;
+    margin-bottom: 20px;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
