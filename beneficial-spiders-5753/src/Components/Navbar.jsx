@@ -1,6 +1,7 @@
 import styles from './Navbar.module.css'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+// import Login from './Login';
 // import {BsSearch} from '@chakra-ui/icons'
 import { FaRegUser, FaCartArrowDown, FaBookOpen, FaStopwatch, FaBorderAll } from 'react-icons/fa'
 import Logo from '../Image/final_logo.png'
@@ -37,7 +38,7 @@ const Navbar = () => {
 
                   <TiLocation style={{ color: 'white', height: '14px', fontSize: '25px' }} />
                      <span style={{ color: 'white' }}>Your Store:&nbsp;&nbsp;</span>
-                     <NavLink to='/' style={{ color: 'white' }}>
+                     <NavLink to='' style={{ color: 'white' }}>
                         <p>Sams Shopping Center</p>
                      </NavLink>
                </div>
@@ -84,7 +85,9 @@ const Navbar = () => {
          <div className={styles.containerNavbar}>
 
             <div style={{}}>
-               <img style={{ width: '230px', marginRight: '200px', marginTop: 'auto' }} src={Logo} alt='' />
+            <NavLink to='/'>
+          <img style={{ width: '230px', marginRight: '200px', marginTop: 'auto' }} src={Logo} alt='' />
+            </NavLink>
             </div>
 
             <div
@@ -107,7 +110,7 @@ const Navbar = () => {
             <div className={styles.containerPlus}>
 
                <div>
-                  <NavLink to='/' style={{ color: 'black', textDecoration: 'none', marginTop: '40px' }}>
+                  <NavLink to='' style={{ color: 'black', textDecoration: 'none', marginTop: '40px' }}>
                      <p>Shop</p>
                   </NavLink>
                </div>
@@ -118,13 +121,13 @@ const Navbar = () => {
             </div>
 
             <div>
-                  <NavLink to='/'>
+                  <NavLink to='/login'>
                      <FaRegUser style={{ height: '100px', width: '21px', color: 'green' }} />
                   </NavLink>
             </div>
 
             <div>
-                  <NavLink to='/'>
+                  <NavLink to='/cart'>
                      <FaCartArrowDown style={{ height: '100px', width: '25px', color: 'green' }} />
                   </NavLink>
             </div>
