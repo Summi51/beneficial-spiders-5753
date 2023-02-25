@@ -176,13 +176,11 @@ const Home = () => {
                 <h1>Customer-Favorites</h1>
             </div>
 
-            <NavLink to='/'>
+            
                 <Box m='auto' w='90%' mt={10}>
                     <Image src='https://www.dollartree.com/file/general/w_hero_easter_1250x400_20230130.jpg' />
                 </Box>
-            </NavLink>
-
-
+      
 
             {/* Hidden */}
 
@@ -307,7 +305,7 @@ const Home = () => {
 
             {/* brew img */}
 
-            <NavLink to='/'>
+    
                 <Box m='auto' w='90%' pl='38px' mt='55px'>
                     <Flex>
                         <Box>
@@ -319,7 +317,7 @@ const Home = () => {
                         </Box>
                     </Flex>
                 </Box>
-            </NavLink>
+       
 
             {/* Create Cute Crafts on Our Value Seekers Blog */}
 

@@ -140,153 +140,390 @@
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2923001942512732693/products/336466.jpg&height=940&width=940",
       "id": 1,
-      "title": "Customizable Plush Bears, 10x6.75x5.75 in."
+      "title": "Customizable Plush Bears, 10x6.75x5.75 in.",
+      "price": "$1.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v253491280499697157/products/331794.jpg&height=940&width=940",
       "id": 2,
-      "title": "Fuzzy Friends Plush Animals for Kids, 11-in."
+      "title": "Fuzzy Friends Plush Animals for Kids, 11-in.",
+      "price": "$1.29"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v8825236082209034706/products/346492.jpg&height=940&width=940",
       "id": 3,
-      "title": "Cuddly Plush Animal Pals, 14-in."
+      "title": "Cuddly Plush Animal Pals, 14-in.",
+      "price": "$5.00"
     },
     {
-      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v1706943070694560517/products/355954.jpg&height=940&width=940",
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v4549280568596869492/products/324182.jpg&height=940&width=940",
       "id": 4,
-      "title": "Plush Sitting Bears, 9 in."
+      "title": "Plush Sitting Bears, 9 in.",
+      "price": "$1.55"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v7792283484543554113/products/344120.jpg&height=940&width=940",
       "id": 5,
-      "title": "PBS Kids Berenstain Bears Character Plushies, 8-in."
+      "title": "PBS Kids Berenstain Bears Character Plushies.",
+      "price": "$1.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v5880353454024805519/products/317809.jpg&height=940&width=940",
       "id": 6,
-      "title": "Barbie Accessory Packs"
+      "title": "Barbie Accessory Packs",
+      "price": "$5.90"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v1866305464673913616/products/317812.jpg&height=940&width=940",
       "id": 7,
-      "title": "Barbie Accessory Pets"
+      "title": "Barbie Accessory Pets",
+      "price": "$1.35"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v589298307646167162/products/305770.jpg&height=940&width=940",
       "id": 8,
-      "title": "Plastic Toy Pets for Kids, 6-pc. Sets"
+      "title": "Plastic Toy Pets for Kids, 6-pc. Sets",
+      "price": "$5.80"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2885734918104934484/products/316544.jpg&height=940&width=940",
       "id": 9,
-      "title": "Fashion Doll Outfit Sets"
+      "title": "Fashion Doll Outfit Sets",
+      "price": "$1.27"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v4309789332762148193/products/313771.jpg&height=940&width=940",
       "id": 10,
-      "title": "Fashion Doll Princess Gowns, 8.25x3.875 in."
+      "title": "Fashion Doll Princess Gowns, 8.25x3.875 in.",
+      "price": "$1.65"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v4726654130078072244/products/317834.jpg&height=940&width=940",
       "id": 11,
-      "title": "Cuddly Plush Caucasian Rag Dolls for Kids, 12.125x7.875 in."
+      "title": "Cuddly Plush Caucasian Rag Dolls for Kids.",
+      "price": "$5.08"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v5461549353577515141/products/219246.jpg&height=940&width=940",
       "id": 12,
-      "title": "Wooden Doll House Furniture"
+      "title": "Wooden Doll House Furniture",
+      "price": "$1.26"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6800893641382559504/products/327496.jpg&height=940&width=940",
       "id": 13,
-      "title": "ROTO African American Baby Doll, 7 in."
+      "title": "ROTO African American Baby Doll, 7 in.",
+      "price": "$1.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2947075570007202815/products/327503.jpg&height=940&width=940",
       "id": 14,
-      "title": "ROTO Caucasian Baby Doll, 7 in."
+      "title": "ROTO Caucasian Baby Doll, 7 in.",
+      "price": "$6.00"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v4925602388320588683/products/317837.jpg&height=940&width=940",
       "id": 15,
-      "title": "African American Fashion Dolls with Accessories, 11.5 in."
+      "title": "African American Fashion Dolls.",
+      "price": "$4.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v3626396938196860651/products/317836.jpg&height=940&width=940",
       "id": 16,
-      "title": "Caucasian Fashion Dolls with Accessories, 11.5 in."
+      "title": "Caucasian Fashion Dolls with Accessories",
+      "price": "$7.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v3504585864461321030/products/327515.jpg&height=940&width=940",
       "id": 17,
-      "title": "Plastic Doll Bath Playsets, 9x5.875 in."
+      "title": "Plastic Doll Bath Playsets, 9x5.875 in.",
+      "price": "$3.00"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v303150933341969696/products/331779.jpg&height=940&width=940",
       "id": 18,
-      "title": "Fuzzy Friends Pajama Party Animal Plushies, 9-in."
+      "title": "Fuzzy Friends Pajama Party Animal Plushies.",
+      "price": "$2.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v10372597357611864/products/327524.jpg&height=940&width=940",
       "id": 19,
-      "title": "Doll House Play Kits for Kids"
+      "title": "Doll House Play Kits for Kids",
+      "price": "$9.28"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v5369055085467941132/products/317259.jpg&height=940&width=940",
       "id": 20,
-      "title": "Disney Tsum Tsum Plush Toys, 3x2.25x2 in."
+      "title": "Disney Tsum Tsum Plush Toys, 3x2.25x2 in.",
+      "price": "$6.27"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v4982576495744744845/products/327527.jpg&height=940&width=940",
       "id": 21,
-      "title": "Doll House with Furniture and People, 5.875x4.75x2.125-in."
+      "title": "Doll House with Furniture and People.",
+      "price": "$5.79"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v454074315045336922/products/316827.jpg&height=940&width=940",
       "id": 22,
-      "title": "Crush Petz Toys for Kids, 2-ct. Packs"
+      "title": "Crush Petz Toys for Kids, 2-ct. Packs",
+      "price": "$1.77"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2428566216673882025/products/338698.jpg&height=940&width=940",
       "id": 23,
-      "title": "African American Fashion Doll Heads with Styling Brushes, 3x3x4.75-in."
+      "title": "African American Fashion Doll Heads.",
+      "price": "$1.65"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v59643183964752356/products/336460.jpg&height=940&width=940",
       "id": 24,
-      "title": "Mini Bean Buddy Plush Characters, 4.5x3.5x3-in."
+      "title": "Mini Bean Buddy Plush Characters.",
+      "price": "$9.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v5812494572272843724/products/315049.jpg&height=940&width=940",
       "id": 25,
-      "title": "Collecting Dolls for Kids, 5-in."
+      "title": "Collecting Dolls for Kids, 5-in.",
+      "price": "$1.46"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v8206793941698929595/products/344114.jpg&height=940&width=940",
       "id": 26,
-      "title": "Fuzzy Friends Plush Animals, 2x4.25x5.75-in."
+      "title": "Fuzzy Friends Plush Animals, 2x4.25x5.75-in.",
+      "price": "$1.34"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v165394787075335766/products/280616.jpg&height=940&width=940",
       "id": 27,
-      "title": "Children's Doll Sized Furniture, 11.5 in."
+      "title": "Children's Doll Sized Furniture, 11.5 in.",
+      "price": "$1.28"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v759411765432215487/products/357827.jpg&height=940&width=940",
       "id": 28,
-      "title": "Toy Box Colorful Light-Up Mermaid Dolls, 14.125-in."
+      "title": "Toy Box Colorful Light-Up Mermaid Dolls.",
+      "price": "$7.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v5190287812888870032/products/322885.jpg&height=940&width=940",
       "id": 29,
-      "title": "Fuzzy Friends Colorful Plush Bunnies, 4x4.5x5.5-in."
+      "title": "Fuzzy Friends Colorful Plush Bunnies.",
+      "price": "$4.25"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6124716725661420504/products/355713.jpg&height=940&width=940",
       "id": 30,
-      "title": "Fold-Out Closet Accessory Cases for Fashion Dolls, 7x2x5-in."
+      "title": "Fold-Out Closet Accessory Cases.",
+      "price": "$1.75"
+    }
+  ],
+  "kitchen": [
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6564712310492010668/products/327661.jpg&height=940&width=940",
+      "id": 1,
+      "title": "Royal Norfolk Blue Floral Bowl",
+      "price": "$1.25"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "id": 2,
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6517874395093762945/products/E402.jpg&height=940&width=940",
+      "id": 3,
+      "title": "Spring Fling Dinnerware Collection",
+      "price": "$5.00"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v7299848270822187427/products/e247_v1.jpg&height=940&width=940",
+      "id": 4,
+      "title": "Solid Black Dinnerware Collection",
+      "price": "$1.55"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v9076540825916550417/products/e415.jpg&height=940&width=940",
+      "id": 5,
+      "title": "Marble Pattern Stoneware",
+      "price": "$1.25"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6436131700224125277/products/e418.jpg&height=940&width=940",
+      "id": 6,
+      "title": "Two-Tone Dinnerware",
+      "price": "$5.90"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v8302088541310882192/products/e426.jpg&height=940&width=940",
+      "id": 7,
+      "title": "Blue Floral Dinnerware",
+      "price": "$1.35"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v8822367953450332345/products/e266.jpg&height=940&width=940",
+      "id": 8,
+      "title": "Clear Glass Dinnerware Collection",
+      "price": "$5.80"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v670943057702272593/products/E427.jpg&height=940&width=940",
+      "id": 9,
+      "title": "Black and White Dashed-Pattern",
+      "price": "$1.27"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6719861553517459627/products/e400_v1.jpg&height=940&width=940",
+      "id": 10,
+      "title": "Solid Gray Dinnerware Collection",
+      "price": "$1.65"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2114961372025728550/products/e416.jpg&height=940&width=940",
+      "id": 11,
+      "title": "Pumpkins Dinnerware Collection",
+      "price": "$5.08"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v7919015546967192962/products/e396.jpg&height=940&width=940",
+      "id": 12,
+      "title": "Fall Leaves Dinnerware Collection",
+      "price": "$1.26"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v1229125137795875790/products/255040.jpg",
+      "id": 13,
+      "title": "Oven Mitts & Pot Holders",
+      "price": "$1.25"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v3806681236836634955/products/254066.jpg",
+      "id": 14,
+      "title": "Wine & Champagne Glasses",
+      "price": "$6.00"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v5567374516928312671/products/226647.jpg",
+      "id": 15,
+      "title": "Travel Mugs & Water Bottles.",
+      "price": "$4.25"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v4326820628854968733/products/937052.jpg",
+      "id": 16,
+      "title": "Beer Mugs & Pilsners",
+      "price": "$7.25"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v923348302113338773/products/196400.jpg",
+      "id": 17,
+      "title": "Glass Containers",
+      "price": "$3.00"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v543099448850947469/products/306208.jpg",
+      "id": 18,
+      "title": "Baking & Decorating Tools",
+      "price": "$2.25"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v7736862684274558850/products/206649.jpg",
+      "id": 19,
+      "title": "Mixing & Prep Bowls",
+      "price": "$9.28"
+    },
+    {
+      "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2214858245850457893/products/118198.jpg&height=940&width=940",
+      "id": 20,
+      "title": "Silver Plastic Utensils, 12-ct. Packs",
+      "price": "$6.27"
+    }
+  ],
+  "cart": [
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6564712310492010668/products/327661.jpg&height=940&width=940",
+      "title": "Royal Norfolk Blue Floral Bowl",
+      "price": "$1.25",
+      "id": 1
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29",
+      "id": 2
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29",
+      "id": 3
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v8822367953450332345/products/e266.jpg&height=940&width=940",
+      "title": "Clear Glass Dinnerware Collection",
+      "price": "$5.80",
+      "id": 4
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v670943057702272593/products/E427.jpg&height=940&width=940",
+      "title": "Black and White Dashed-Pattern",
+      "price": "$1.27",
+      "id": 5
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v923348302113338773/products/196400.jpg",
+      "title": "Glass Containers",
+      "price": "$3.00",
+      "id": 6
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v9076540825916550417/products/e415.jpg&height=940&width=940",
+      "title": "Marble Pattern Stoneware",
+      "price": "$1.25",
+      "id": 7
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6436131700224125277/products/e418.jpg&height=940&width=940",
+      "title": "Two-Tone Dinnerware",
+      "price": "$5.90",
+      "id": 8
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29",
+      "id": 9
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29",
+      "id": 10
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v9076540825916550417/products/e415.jpg&height=940&width=940",
+      "title": "Marble Pattern Stoneware",
+      "price": "$1.25",
+      "id": 11
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29",
+      "id": 12
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29",
+      "id": 13
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
+      "title": "Lemon Dinnerware Collection.",
+      "price": "$1.29",
+      "id": 14
     }
   ]
 }
-
