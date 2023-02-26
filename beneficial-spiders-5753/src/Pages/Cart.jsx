@@ -60,7 +60,7 @@ const Cart = () => {
         );
       })}
       <div>
-        <h1>Total : {data.reduce((acc, el) => {
+        <h1 style={{ fontSize: '30px', fontWeight: '20px' }}>Total : {data.reduce((acc, el) => {
           return acc + parseInt(el.price) * 1
         }, 0)}</h1>
       </div>
