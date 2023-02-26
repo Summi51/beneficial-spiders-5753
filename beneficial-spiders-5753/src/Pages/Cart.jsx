@@ -40,22 +40,30 @@ const Cart = () => {
     }).then((res) => console.log(res))
       .catch((err) => console(err))
   }
+
+  console.log(Number("₹400"))
   return (
     <div>
-
       {data?.map((e) => {
         return (
-          <div className={styles.main}>
-            <img style={{ width: '10%', marginLeft: '45%', marginTop: '50px' }} src={e.image} alt=
-              {e.title} />
-            <h3 style={{ marginTop: '10px', fontWeight: '500' }}>{e.title}</h3>
-            <div style={{ marginTop: '10px', fontWeight: '500' }}>{e.price}</div>
-            <button onClick={() => handleDelete(e.id)} className={styles.del_btn}>Remove</button>
-            <hr />
-          </div>
+          <>
+            <div className={styles.main}>
+              <img style={{ width: '10%', marginLeft: '45%', marginTop: '50px' }} src={e.image} alt=
+                {e.title} />
+              <h3 style={{ marginTop: '10px', fontWeight: '500' }}>{e.title}</h3>
+              <div style={{ marginTop: '10px', fontWeight: '500' }}>{e.price}</div>
+              <button onClick={() => handleDelete(e.id)} className={styles.del_btn}>Remove</button>
+              <hr />
+            </div>
+
+          </>
         );
       })}
-
+      <div>
+        <h1>Total : {data.reduce((acc, el) => {
+          return acc + parseInt(el.price) * 1
+        }, 0)}</h1>
+      </div>
     </div>
   )
 }

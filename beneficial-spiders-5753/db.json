@@ -329,122 +329,135 @@
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6564712310492010668/products/327661.jpg&height=940&width=940",
       "id": 1,
       "title": "Royal Norfolk Blue Floral Bowl",
-      "price": "$1.25"
+      "price": "125"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
       "id": 2,
       "title": "Lemon Dinnerware Collection.",
-      "price": "$1.29"
+      "price": "129"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6517874395093762945/products/E402.jpg&height=940&width=940",
       "id": 3,
       "title": "Spring Fling Dinnerware Collection",
-      "price": "$5.00"
+      "price": "500"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v7299848270822187427/products/e247_v1.jpg&height=940&width=940",
       "id": 4,
       "title": "Solid Black Dinnerware Collection",
-      "price": "$1.55"
+      "price": "155"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v9076540825916550417/products/e415.jpg&height=940&width=940",
       "id": 5,
       "title": "Marble Pattern Stoneware",
-      "price": "$1.25"
+      "price": "125"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6436131700224125277/products/e418.jpg&height=940&width=940",
       "id": 6,
       "title": "Two-Tone Dinnerware",
-      "price": "$5.90"
+      "price": "590"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v8302088541310882192/products/e426.jpg&height=940&width=940",
       "id": 7,
       "title": "Blue Floral Dinnerware",
-      "price": "$1.35"
+      "price": "135"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v8822367953450332345/products/e266.jpg&height=940&width=940",
       "id": 8,
       "title": "Clear Glass Dinnerware Collection",
-      "price": "$5.80"
+      "price": "580"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v670943057702272593/products/E427.jpg&height=940&width=940",
       "id": 9,
       "title": "Black and White Dashed-Pattern",
-      "price": "$1.27"
+      "price": "127"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6719861553517459627/products/e400_v1.jpg&height=940&width=940",
       "id": 10,
       "title": "Solid Gray Dinnerware Collection",
-      "price": "$1.65"
+      "price": "165"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2114961372025728550/products/e416.jpg&height=940&width=940",
       "id": 11,
       "title": "Pumpkins Dinnerware Collection",
-      "price": "$5.08"
+      "price": "508"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v7919015546967192962/products/e396.jpg&height=940&width=940",
       "id": 12,
       "title": "Fall Leaves Dinnerware Collection",
-      "price": "$1.26"
+      "price": "126"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v1229125137795875790/products/255040.jpg",
       "id": 13,
       "title": "Oven Mitts & Pot Holders",
-      "price": "$1.25"
+      "price": "125"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v3806681236836634955/products/254066.jpg",
       "id": 14,
       "title": "Wine & Champagne Glasses",
-      "price": "$6.00"
+      "price": "600"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v5567374516928312671/products/226647.jpg",
       "id": 15,
       "title": "Travel Mugs & Water Bottles.",
-      "price": "$4.25"
+      "price": "425"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v4326820628854968733/products/937052.jpg",
       "id": 16,
       "title": "Beer Mugs & Pilsners",
-      "price": "$7.25"
+      "price": "725"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v923348302113338773/products/196400.jpg",
       "id": 17,
       "title": "Glass Containers",
-      "price": "$3.00"
+      "price": "300"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v543099448850947469/products/306208.jpg",
       "id": 18,
       "title": "Baking & Decorating Tools",
-      "price": "$2.25"
+      "price": "225"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v7736862684274558850/products/206649.jpg",
       "id": 19,
       "title": "Mixing & Prep Bowls",
-      "price": "$9.28"
+      "price": "928"
     },
     {
       "img": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2214858245850457893/products/118198.jpg&height=940&width=940",
       "id": 20,
       "title": "Silver Plastic Utensils, 12-ct. Packs",
-      "price": "$6.27"
+      "price": "627"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6564712310492010668/products/327661.jpg&height=940&width=940",
+      "title": "Royal Norfolk Blue Floral Bowl",
+      "price": "125",
+      "id": 1
+    },
+    {
+      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v9076540825916550417/products/e415.jpg&height=940&width=940",
+      "title": "Marble Pattern Stoneware",
+      "price": "125",
+      "id": 2
+    }
+  ]
 }

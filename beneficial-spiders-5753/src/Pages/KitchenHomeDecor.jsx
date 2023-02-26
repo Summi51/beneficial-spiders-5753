@@ -33,10 +33,10 @@ const Product = () => {
     let PriceUrlBy;
 
     if (priceBy) {
-      PriceUrlBy = `http://localhost:8080/kitchen?_page=${page}&_limit=${limit}&_sort=${sort}&_order=${priceBy}`
+      PriceUrlBy = `http://localhost:8080/kitchen?q=${q}&_page=${page}&_limit=${limit}&_sort=${sort}&_order=${priceBy}`
     }
     else {
-      PriceUrlBy = `http://localhost:8080/kitchen?_page=${page}&_limit=${limit}`
+      PriceUrlBy = `http://localhost:8080/kitchen?q=${q}&_page=${page}&_limit=${limit}`
     }
 
 
@@ -50,7 +50,7 @@ const Product = () => {
       })
       .then((data) => { setData(data) })
       .catch((err) => console.log(err))
-  }, [page, priceBy])
+  }, [page, priceBy, q])
   // console.log(data)
 
 
@@ -58,45 +58,22 @@ const Product = () => {
   // For parameters
 
   useEffect(() => {
-    let params = { page, priceBy }
+    let params = { page, priceBy, q }
     setSearchParams(params)
-  }, [page, priceBy])
+  }, [page, priceBy, q])
   console.log(q)
 
-  const fetchproduct = (page, q)=>{
-    axios(`http://localhost:8080/kitchen?q=${q}&_page=${page}&_limit=9`)
-    .then((res)=>{
-      setTotal(res.headers['x-total-count'])
-      setProduct(res)
-      
-    })
-    .catch((err)=>
-      console.log(err)
-    )
-  }
+
 
   return (
 
     <div className={styles.valentineCrafts}>
-         <h1 style={{ fontSize: '50px', marginTop: '20px' }}>Dinnerware</h1>
-           <Box w='90%' mt='10' mb='55px' ml='200px'>
-             <Image     
-src='https://www.dollartree.com/file/general/dollar_tree_hero_dinnerware_20230106.jpg' />
-           </Box>     
-      <div
-             style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: "center"
-               }}
-            >
-              <input placeholder='   Search Prod Factory' style={{
-                  width: '30%', height: '35px', marginTop: '47px', borderRadius: 
-                    '1px', border: '1px solid grey'
-               }}
-               />
-               <Search2Icon mt='12' ml='-6' />
-            </div>
+      <h1 style={{ fontSize: '50px', marginTop: '20px' }}>Dinnerware</h1>
+      <Box w='90%' mt='10' mb='55px' ml='200px'>
+        <Image
+          src='https://www.dollartree.com/file/general/dollar_tree_hero_dinnerware_20230106.jpg' />
+      </Box>
+ 
 
       <div className={styles.page_btn}>
         <button onClick={() => setPriceBy('asc')} className={styles.btn_prods_sort}>Low to High</button>
