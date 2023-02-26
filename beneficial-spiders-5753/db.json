@@ -446,18 +446,5 @@
       "price": "627"
     }
   ],
-  "cart": [
-    {
-      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v6564712310492010668/products/327661.jpg&height=940&width=940",
-      "title": "Royal Norfolk Blue Floral Bowl",
-      "price": "125",
-      "id": 1
-    },
-    {
-      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v9076540825916550417/products/e415.jpg&height=940&width=940",
-      "title": "Marble Pattern Stoneware",
-      "price": "125",
-      "id": 2
-    }
-  ]
+  "cart": []
 }
