@@ -446,12 +446,5 @@
       "price": "627"
     }
   ],
-  "cart": [
-    {
-      "image": "https://www.dollartree.com/ccstore/v1/images/?source=/file/v2343645661824622323/products/e399.jpg&height=940&width=940",
-      "title": "Lemon Dinnerware Collection.",
-      "price": "129",
-      "id": 1
-    }
-  ]
+  "cart": []
 }
