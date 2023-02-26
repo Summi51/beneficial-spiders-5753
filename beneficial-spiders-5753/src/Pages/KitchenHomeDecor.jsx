@@ -5,13 +5,19 @@ import { useState, useEffect } from 'react'
 // import { Link } from 'react-router-dom';
 import { useSearchParams } from 'react-router-dom';
 import { Box, Image } from '@chakra-ui/react';
+import { searchContext } from '../Context/SearchContextProvider'
+import { useContext } from 'react';
+import axios from 'axios';
+import { Search2Icon } from '@chakra-ui/icons';
 
 const Product = () => {
-
+  const { q } = useContext(searchContext)
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
   const limit = 9;
-  const [searchParams, setSearchParams] =  useSearchParams()
+  const [product, setProduct] = useState([])
+  const [searchParams, setSearchParams] = useSearchParams()
+
 
   const [total, setTotal] = useState(0);
   let lastPage = Math.ceil(total / limit)
@@ -27,10 +33,10 @@ const Product = () => {
     let PriceUrlBy;
 
     if (priceBy) {
-      PriceUrlBy = `http://localhost:8080/kitchen?_page=${page}&_limit=${limit}&_sort=${sort}&_order=${priceBy}`
+      PriceUrlBy = `http://localhost:8080/kitchen?q=${q}&_page=${page}&_limit=${limit}&_sort=${sort}&_order=${priceBy}`
     }
     else {
-      PriceUrlBy = `http://localhost:8080/kitchen?_page=${page}&_limit=${limit}`
+      PriceUrlBy = `http://localhost:8080/kitchen?q=${q}&_page=${page}&_limit=${limit}`
     }
 
 
@@ -44,7 +50,7 @@ const Product = () => {
       })
       .then((data) => { setData(data) })
       .catch((err) => console.log(err))
-  }, [page, priceBy])
+  }, [page, priceBy, q])
   // console.log(data)
 
 
@@ -52,25 +58,23 @@ const Product = () => {
   // For parameters
 
   useEffect(() => {
-    let params = {page, priceBy}
+    let params = { page, priceBy, q }
     setSearchParams(params)
-  }, [page, priceBy])
-
-
+  }, [page, priceBy, q])
+  console.log(q)
 
 
 
   return (
 
-  <div className={styles.valentineCrafts}>
-    <h1 style={{fontSize:'50px', marginTop:'20px'}}>Dinnerware</h1>
+    <div className={styles.valentineCrafts}>
+      <h1 style={{ fontSize: '50px', marginTop: '20px' }}>Dinnerware</h1>
+      <Box w='90%' mt='10' mb='55px' ml='200px'>
+        <Image
+          src='https://www.dollartree.com/file/general/dollar_tree_hero_dinnerware_20230106.jpg' />
+      </Box>
+ 
 
-  <Box w='90%' mt='10' mb='55px' ml='200px'>
-    <Image
-src='https://www.dollartree.com/file/general/dollar_tree_hero_dinnerware_20230106.jpg' />
-  </Box>
-
-    
       <div className={styles.page_btn}>
         <button onClick={() => setPriceBy('asc')} className={styles.btn_prods_sort}>Low to High</button>
         <button onClick={() => setPriceBy('desc')} className={styles.btn_prods_sort}>High to Low</button>
@@ -80,12 +84,12 @@ src='https://www.dollartree.com/file/general/dollar_tree_hero_dinnerware_2023010
         {
           data?.map((item) => (
             <NavLink to={`/kitchen_home_decor/${item.id}`}>
-            <div className={styles.prod_card} key={item.id}>
-              <img style={{ width: '100%' }} src={item.img} alt={item.title} />
-              <h4 style={{ marginTop: '10px', fontWeight: '500' }}>{item.title}</h4>
-              <h5 style={{ marginTop: '10px', fontWeight: '500' }}>Rs.{item.price}/-</h5>
-              {/* <Link to={`/product/${item.id}`}>More</Link> */}
-            </div>
+              <div className={styles.prod_card} key={item.id}>
+                <img style={{ width: '100%' }} src={item.img} alt={item.title} />
+                <h4 style={{ marginTop: '10px', fontWeight: '500' }}>{item.title}</h4>
+                <h5 style={{ marginTop: '10px', fontWeight: '500' }}>Rs.{item.price}/-</h5>
+                {/* <Link to={`/product/${item.id}`}>More</Link> */}
+              </div>
             </NavLink>
           ))
         }

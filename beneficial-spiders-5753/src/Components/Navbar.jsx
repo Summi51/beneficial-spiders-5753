@@ -7,6 +7,8 @@ import { FaRegUser, FaCartArrowDown, FaBookOpen, FaStopwatch, FaBorderAll } from
 import Logo from '../Image/final_logo.png'
 import { TiLocation } from 'react-icons/ti'
 import { Search2Icon } from '@chakra-ui/icons'
+import { useContext } from 'react';
+import { searchContext } from '../Context/SearchContextProvider'
 
 const AllData = [
 
@@ -22,7 +24,7 @@ const AllData = [
 
 
 const Navbar = () => {
-
+   const { setq } = useContext(searchContext)
    return (
 
       <>
@@ -37,10 +39,10 @@ const Navbar = () => {
                <div style={{ display: 'flex' }}>
 
                   <TiLocation style={{ color: 'white', height: '14px', fontSize: '25px' }} />
-                     <span style={{ color: 'white' }}>Your Store:&nbsp;&nbsp;</span>
-                     <NavLink to='' style={{ color: 'white' }}>
-                        <p>Sams Shopping Center</p>
-                     </NavLink>
+                  <span style={{ color: 'white' }}>Your Store:&nbsp;&nbsp;</span>
+                  <NavLink to='' style={{ color: 'white' }}>
+                     <p>Sams Shopping Center</p>
+                  </NavLink>
                </div>
 
                <div style={{ display: 'flex', justifyContent: "space-evenly" }}>
@@ -51,7 +53,7 @@ const Navbar = () => {
                <div style={{ justifyContent: 'flex-start' }}>
                   <p>Order By Phone 1-877-530-TREE</p>
                   <a style={{ color: 'white', paddingRight: '70px', lineHeight: '30px' }}
-                      href='(Call Center Hours)'>(Call Center
+                     href='(Call Center Hours)'>(Call Center
                      Hours)
                   </a>
                </div>
@@ -85,9 +87,9 @@ const Navbar = () => {
          <div className={styles.containerNavbar}>
 
             <div style={{}}>
-            <NavLink to='/'>
-          <img style={{ width: '230px', marginRight: '200px', marginTop: 'auto' }} src={Logo} alt='' />
-            </NavLink>
+               <NavLink to='/'>
+                  <img style={{ width: '230px', marginRight: '200px', marginTop: 'auto' }} src={Logo} alt='' />
+               </NavLink>
             </div>
 
             <div
@@ -99,8 +101,9 @@ const Navbar = () => {
             >
                <input placeholder='   Search Prod Factory' style={{
                   width: '100%', height: '35px', marginTop: '47px', borderRadius: '1px', border: '1px solid grey'
-               }} 
-            />
+               }}
+                  onChange={(e) => setq(e.target.value)}
+               />
                <Search2Icon mt='12' ml='-6' />
             </div>
 
@@ -115,25 +118,25 @@ const Navbar = () => {
                   </NavLink>
                </div>
 
-            <div style={{ width: '90px', height: '70px' }}>
+               <div style={{ width: '90px', height: '70px' }}>
                   <img src='https://www.dollartree.com/file/general/dt_plus_pdp_plp_200x70.png' alt=''
                      style={{ marginTop: '40px' }} />
-            </div>
+               </div>
 
-            <div>
+               <div>
                   <NavLink to='/login'>
                      <FaRegUser style={{ height: '100px', width: '21px', color: 'green' }} />
                   </NavLink>
-            </div>
+               </div>
 
-            <div>
+               <div>
                   <NavLink to='/cart'>
                      <FaCartArrowDown style={{ height: '100px', width: '25px', color: 'green' }} />
                   </NavLink>
-            </div>
+               </div>
 
             </div>
-            </div>
+         </div>
          <div className={styles.navDiv} style={{}}>
             {
                AllData.map((item) => (
@@ -146,7 +149,7 @@ const Navbar = () => {
             }
          </div>
 
-      {/* Drop Down Navbar */}
+         {/* Drop Down Navbar */}
       </>
    )
 }
